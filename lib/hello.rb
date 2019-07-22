@@ -1,7 +1,11 @@
 
 
 def hello_t(array)
+<<<<<<< HEAD
  if block_given?
+=======
+ if block_given 
+>>>>>>> 81a6f95de826bed5c0194ff07e59b01bdf7aeb16
    i = 0
  
   while i < array.length
@@ -11,7 +15,10 @@ def hello_t(array)
   array
   else
     puts "Hey! No block was given!"
+<<<<<<< HEAD
   end 
+=======
+>>>>>>> 81a6f95de826bed5c0194ff07e59b01bdf7aeb16
 end
 
 
